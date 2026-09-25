@@ -522,10 +522,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "export/",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -648,7 +652,7 @@
         "uuid": "e5812293-2a50-4505-ab5f-ebebf7c13f5a"
       }
     ],
-    "used_designators": "#PWR1,D1,R1",
+    "used_designators": "#PWR1-4,D1,D3-7,R1",
     "variants": []
   },
   "sheets": [
