@@ -1,0 +1,9 @@
+# Keep KiCad files LF so diffs stay clean across machines
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pro text eol=lf
+*.kicad_dru text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+*.net       text eol=lf
+*.dxf       text eol=lf

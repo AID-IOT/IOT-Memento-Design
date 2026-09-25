@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "memento")(type "KiCad")(uri "${KIPRJMOD}/memento.kicad_sym")(options "")(descr "memento project symbols"))
+)

@@ -1,0 +1,59 @@
+# ---- KiCad ----
+
+# Temporary / lock files
+*.lck
+~*.lck
+*.tmp
+_autosave-*
+*.autosave
+*-save.kicad_pcb
+*-save.kicad_sch
+*-save.pro
+*.kicad_prl
+
+# Backups
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.pro-bak
+*.000
+*.net-bak
+
+# Footprint/symbol caches
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# Exported / generated output
+*.drl
+*.gbr
+*.gbrjob
+*.ps
+*.gz
+*.zip
+gerbers/
+jlcpcb/
+production/
+
+# Simulation
+*.raw
+spice/
+
+# KiCad local history (KiCad manages its own repo in here)
+.history/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Playwright MCP scratch output
+.playwright-mcp/

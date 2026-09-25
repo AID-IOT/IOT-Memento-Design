@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "memento")(type "KiCad")(uri "${KIPRJMOD}/memento.pretty")(options "")(descr "memento project footprints"))
+)
