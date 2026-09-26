@@ -6,6 +6,8 @@ WS2812B LEDs and reads a BMP280 pressure/temperature sensor, and serves the
 readings on a web page over WiFi. The front silkscreen carries the AICTE IDEA
 Lab and Poornima College logos.
 
+![Memento board, top side - 3D render of the finished PCB showing the AICTE IDEA Lab and Poornima College of Engineering logos on the front silkscreen](docs/images/memento-top.png)
+
 | | |
 |---|---|
 | Board | 150 × 100 mm, 1.6 mm, 2-layer |
@@ -31,6 +33,7 @@ memento/
 │       ├── config.h              ← WiFi name and password go here
 │       └── index_html.h          the web page
 ├── docs/        Project manual (.docx)
+│   └── images/                   board renders used in this README
 └── README.md
 ```
 
@@ -105,6 +108,24 @@ standalone with no external library setup.
 The full build process — creating symbols, assigning footprints, importing the
 logos to silkscreen, placement, routing and checks — is written up step by step
 in the manual under [`docs/`](docs/).
+
+The back side carries only the XIAO and BMP280 through-hole pads and the two
+signal vias:
+
+![Memento board, bottom side - 3D render showing the through-hole pads and vias](docs/images/memento-bottom.png)
+
+Both renders come straight from the board file, so they can be regenerated after
+any layout change:
+
+```bash
+kicad-cli pcb render -o docs/images/memento-top.png \
+  --side top --preset follow_pcb_editor --quality high \
+  --background transparent -w 1800 -h 1240 hw/memento.kicad_pcb
+```
+
+Swap `--side top` for `--side bottom` for the other view. The
+`follow_pcb_editor` preset matters: the default `follow_plot_settings` drops the
+silkscreen, which renders the board as a blank rectangle with no logos.
 
 ## Documentation
 

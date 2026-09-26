@@ -66,3 +66,55 @@ sw/**/build/
 
 # Office lock files
 ~$*
+
+# ---- KiCad generated outputs (regenerate; do not commit) ----
+
+# Fabrication & assembly
+*.pos
+*.d356
+*.ipc
+*.xao
+
+# Netlists and component lists - rebuilt from the schematic
+*.net
+*.cmp
+
+# Reports (DRC, ERC, footprint mismatch)
+*.rpt
+
+# Autorouter round-trip
+*.dsn
+*.ses
+
+# 3D model exports
+*.step
+*.stp
+*.wrl
+*.stl
+
+# Plots. hw/export/ is committed on purpose - keep it visible.
+*.svg
+!hw/export/**
+
+# ---- Tooling ----
+
+# Python virtualenvs
+.venv/
+venv/
+env/
+*.pyo
+*.egg-info/
+
+# Node
+node_modules/
+
+# Logs and merge leftovers
+*.log
+*.orig
+*.rej
+
+# LibreOffice lock files
+.~lock.*#
+
+# Claude Code machine-local settings (share .claude/settings.json, not this)
+.claude/settings.local.json
