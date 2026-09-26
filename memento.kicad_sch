@@ -194,6 +194,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "memento:BMP280_Module"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BMP280_Module"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "memento:BMP280_Module_GY_6P_15x11.5mm"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://components101.com/sensors/gy-bmp280-module"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "GY-BMP280-3.3 barometric pressure and temperature module, I2C/SPI, 6-pin header"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BMP280 GY-BMP280 pressure barometer temperature I2C SPI module"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "BMP280*Module*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMP280_Module_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BMP280_Module_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "memento:WS2812B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -978,44 +1184,54 @@
 		)
 	)
 	(junction
-		(at 124.46 140.97)
+		(at 185.42 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0688d018-6269-4e83-b954-6067d72ece5c")
 	)
 	(junction
-		(at 113.03 140.97)
+		(at 173.99 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16b7924a-d922-450d-99cf-708b9651bf59")
 	)
 	(junction
-		(at 133.35 116.84)
+		(at 194.31 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "399930a7-568d-4232-b185-99da04d91ade")
 	)
 	(junction
-		(at 133.35 140.97)
+		(at 194.31 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bd152f2-f702-448d-9a11-a090a8cce3cd")
 	)
 	(junction
-		(at 124.7214 116.84)
+		(at 185.6814 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bb4865b-ad54-4411-b2b1-5b6a1ae17ebe")
 	)
 	(junction
-		(at 113.03 116.84)
+		(at 173.99 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc41ada4-02a4-41f5-b551-f98a47985354")
 	)
 	(wire
 		(pts
-			(xy 93.98 134.62) (xy 93.98 140.97)
+			(xy 92.71 85.09) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13aae546-6f3e-48a6-8335-ad5a76cf5d44")
+	)
+	(wire
+		(pts
+			(xy 154.94 55.88) (xy 154.94 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1241,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 140.97) (xy 152.4 134.62)
+			(xy 213.36 62.23) (xy 213.36 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1035,17 +1251,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 127) (xy 86.36 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f45a01a-c71e-48c9-8a2d-d74958bcecf6")
-	)
-	(wire
-		(pts
-			(xy 93.98 119.38) (xy 93.98 116.84)
+			(xy 154.94 40.64) (xy 154.94 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1261,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 140.97) (xy 113.03 140.97)
+			(xy 154.94 62.23) (xy 173.99 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1271,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 116.84) (xy 152.4 119.38)
+			(xy 213.36 38.1) (xy 213.36 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1281,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.7214 116.84) (xy 133.35 116.84)
+			(xy 102.87 97.79) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebe33ed-e312-4037-b8d4-58bee4f2e72d")
+	)
+	(wire
+		(pts
+			(xy 185.6814 38.1) (xy 194.31 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1085,17 +1301,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 81.28) (xy 41.91 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a2dc2f6-c81e-4508-83cb-31098821ecd7")
-	)
-	(wire
-		(pts
-			(xy 113.03 140.97) (xy 113.03 134.62)
+			(xy 173.99 62.23) (xy 173.99 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1311,27 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 116.84) (xy 133.35 119.38)
+			(xy 92.71 48.26) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c879ea9-a631-4ccc-8b67-90144ba92a58")
+	)
+	(wire
+		(pts
+			(xy 102.87 92.71) (xy 102.87 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f477671-c360-4c9f-854a-018dd1334e48")
+	)
+	(wire
+		(pts
+			(xy 194.31 38.1) (xy 194.31 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1341,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 127) (xy 144.78 127)
+			(xy 81.28 95.25) (xy 111.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f78dd04-1761-46f3-a89a-ac016da6fc35")
+	)
+	(wire
+		(pts
+			(xy 201.93 48.26) (xy 205.74 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1361,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 116.84) (xy 152.4 116.84)
+			(xy 194.31 38.1) (xy 213.36 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 127) (xy 105.41 127)
+			(xy 162.56 48.26) (xy 166.37 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1381,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 92.71 81.28)
+			(xy 142.24 85.09) (xy 143.51 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1155,7 +1391,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 140.97) (xy 124.46 140.97)
+			(xy 173.99 62.23) (xy 185.42 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1165,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 116.84) (xy 113.03 116.84)
+			(xy 154.94 38.1) (xy 173.99 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1411,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 140.97) (xy 133.35 134.62)
+			(xy 194.31 62.23) (xy 194.31 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1185,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 127) (xy 125.73 127)
+			(xy 181.61 48.26) (xy 186.69 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1431,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 116.84) (xy 124.7214 116.84)
+			(xy 173.99 38.1) (xy 185.6814 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1441,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 140.97) (xy 152.4 140.97)
+			(xy 194.31 62.23) (xy 213.36 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1215,7 +1451,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 81.28) (xy 60.96 81.28)
+			(xy 100.33 85.09) (xy 111.76 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1225,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 106.68 83.82)
+			(xy 142.24 87.63) (xy 157.48 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 116.84) (xy 113.03 119.38)
+			(xy 173.99 38.1) (xy 173.99 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1245,7 +1481,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 140.97) (xy 133.35 140.97)
+			(xy 81.28 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdee7113-8a99-4ae2-b337-24f6f73fc31b")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 194.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 140.97 0)
+		(at 185.42 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1266,7 +1512,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f4166d4-c25e-4c84-b2c6-19293b216df0")
 		(property "Reference" "#PWR01"
-			(at 124.46 147.32 0)
+			(at 185.42 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1277,7 +1523,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 146.05 0)
+			(at 185.42 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1287,7 +1533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 140.97 0)
+			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1298,7 +1544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 140.97 0)
+			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1309,7 +1555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 140.97 0)
+			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1333,7 +1579,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 45.72 81.28 90)
+		(at 96.52 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1344,7 +1590,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c07128d-66a1-46b8-b315-5dfa658e55df")
 		(property "Reference" "R1"
-			(at 45.72 74.93 90)
+			(at 96.52 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1354,7 +1600,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 45.72 77.47 90)
+			(at 96.52 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1364,7 +1610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.974 80.264 90)
+			(at 96.774 84.074 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1375,7 +1621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 81.28 0)
+			(at 96.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1386,7 +1632,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 45.72 81.28 0)
+			(at 96.52 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1413,7 +1659,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 83.82 0)
+		(at 157.48 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1424,7 +1670,7 @@
 		(dnp no)
 		(uuid "2e5ff259-c56e-4c10-b9f5-0e3601b55aac")
 		(property "Reference" "#PWR02"
-			(at 106.68 90.17 0)
+			(at 157.48 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1435,7 +1681,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 88.9 0)
+			(at 157.48 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1445,7 +1691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 83.82 0)
+			(at 157.48 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1456,7 +1702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 83.82 0)
+			(at 157.48 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1467,7 +1713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 83.82 0)
+			(at 157.48 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1491,7 +1737,7 @@
 	)
 	(symbol
 		(lib_id "memento:WS2812B")
-		(at 93.98 127 0)
+		(at 154.94 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1501,7 +1747,7 @@
 		(dnp no)
 		(uuid "4b5205a6-b19a-44a5-841d-289a1376338e")
 		(property "Reference" "D2"
-			(at 93.98 114.3 0)
+			(at 154.94 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1511,7 +1757,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 93.98 139.7 0)
+			(at 154.94 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1521,7 +1767,7 @@
 			)
 		)
 		(property "Footprint" "memento:WS2812B_PLCC4_5.0x5.0mm"
-			(at 93.98 127 0)
+			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1532,7 +1778,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 93.98 127 0)
+			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1543,7 +1789,7 @@
 			)
 		)
 		(property "Description" "WS2812B addressable RGB LED with integrated controller, 5050 PLCC-4"
-			(at 93.98 127 0)
+			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,7 +1822,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 124.7214 116.84 0)
+		(at 185.6814 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1587,7 +1833,7 @@
 		(fields_autoplaced yes)
 		(uuid "52bb8069-9911-4375-9a32-3c04e92a7aa2")
 		(property "Reference" "#PWR04"
-			(at 124.7214 120.65 0)
+			(at 185.6814 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1844,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.7214 111.76 0)
+			(at 185.6814 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1608,7 +1854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.7214 116.84 0)
+			(at 185.6814 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1619,7 +1865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.7214 116.84 0)
+			(at 185.6814 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1630,7 +1876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.7214 116.84 0)
+			(at 185.6814 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1654,7 +1900,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 92.71 81.28 0)
+		(at 143.51 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1665,7 +1911,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e3b671a-ef27-49eb-b47e-edfa824af07a")
 		(property "Reference" "#PWR03"
-			(at 92.71 85.09 0)
+			(at 143.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +1922,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 76.2 0)
+			(at 143.51 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1686,7 +1932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 81.28 0)
+			(at 143.51 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,7 +1943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 81.28 0)
+			(at 143.51 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,7 +1954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 92.71 81.28 0)
+			(at 143.51 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1732,7 +1978,7 @@
 	)
 	(symbol
 		(lib_id "memento:XIAO_ESP32C3")
-		(at 76.2 88.9 0)
+		(at 127 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1742,7 +1988,7 @@
 		(dnp no)
 		(uuid "6a454c0c-2bca-481f-b464-edec0a3423be")
 		(property "Reference" "U1"
-			(at 76.2 74.93 0)
+			(at 127 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1752,7 +1998,7 @@
 			)
 		)
 		(property "Value" "XIAO_ESP32C3"
-			(at 76.2 77.47 0)
+			(at 127 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1762,7 +2008,7 @@
 			)
 		)
 		(property "Footprint" "memento:XIAO-ESP32C3-Hybrid"
-			(at 76.2 88.9 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1773,7 +2019,7 @@
 			)
 		)
 		(property "Datasheet" "https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/"
-			(at 76.2 88.9 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +2030,7 @@
 			)
 		)
 		(property "Description" "Seeed Studio XIAO ESP32C3, RISC-V SoC with WiFi 4 and BLE 5, 21 x 17.8 mm module, 14 pins"
-			(at 76.2 88.9 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +2093,7 @@
 	)
 	(symbol
 		(lib_id "memento:WS2812B")
-		(at 133.35 127 0)
+		(at 194.31 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1857,7 +2103,7 @@
 		(dnp no)
 		(uuid "6ffcdec0-c86a-49ac-bfcb-cebd627ca52c")
 		(property "Reference" "D4"
-			(at 133.35 114.3 0)
+			(at 194.31 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1867,7 +2113,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 133.35 139.7 0)
+			(at 194.31 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1877,7 +2123,7 @@
 			)
 		)
 		(property "Footprint" "memento:WS2812B_PLCC4_5.0x5.0mm"
-			(at 133.35 127 0)
+			(at 194.31 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1888,7 +2134,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 133.35 127 0)
+			(at 194.31 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1899,7 +2145,7 @@
 			)
 		)
 		(property "Description" "WS2812B addressable RGB LED with integrated controller, 5050 PLCC-4"
-			(at 133.35 127 0)
+			(at 194.31 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,7 +2178,7 @@
 	)
 	(symbol
 		(lib_id "memento:WS2812B")
-		(at 152.4 127 0)
+		(at 213.36 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1942,7 +2188,7 @@
 		(dnp no)
 		(uuid "99dad27c-2366-4980-9f3b-8f8b8411e9cd")
 		(property "Reference" "D5"
-			(at 152.4 114.3 0)
+			(at 213.36 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1952,7 +2198,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 152.4 139.7 0)
+			(at 213.36 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1962,7 +2208,7 @@
 			)
 		)
 		(property "Footprint" "memento:WS2812B_PLCC4_5.0x5.0mm"
-			(at 152.4 127 0)
+			(at 213.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1973,7 +2219,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 152.4 127 0)
+			(at 213.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1984,7 +2230,7 @@
 			)
 		)
 		(property "Description" "WS2812B addressable RGB LED with integrated controller, 5050 PLCC-4"
-			(at 152.4 127 0)
+			(at 213.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2016,8 +2262,257 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 71.12 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a094fd22-266b-483c-b6aa-9e7a36ab1895")
+		(property "Reference" "#PWR05"
+			(at 71.12 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 71.12 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 71.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "356fac16-90e2-43ee-91a0-1e15acb033f8")
+		)
+		(instances
+			(project "memento"
+				(path "/e5812293-2a50-4505-ab5f-ebebf7c13f5a"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "memento:BMP280_Module")
+		(at 71.12 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6cc3628-4e24-4a15-b23d-52adb078bff7")
+		(property "Reference" "U2"
+			(at 62.23 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BMP280_Module"
+			(at 62.23 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "memento:BMP280_Module_GY_6P_15x11.5mm"
+			(at 71.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://components101.com/sensors/gy-bmp280-module"
+			(at 71.12 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "GY-BMP280-3.3 barometric pressure and temperature module, I2C/SPI, 6-pin header"
+			(at 71.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "ca0adb02-a360-4cfb-9054-665bcc3b9076")
+		)
+		(pin "3"
+			(uuid "69e45c4e-43db-488f-ad26-dfa6a3b6ed45")
+		)
+		(pin "6"
+			(uuid "f7c458c2-0d84-4e68-a326-1134100bde48")
+		)
+		(pin "1"
+			(uuid "50a41334-944f-4425-ac69-820e24da6839")
+		)
+		(pin "2"
+			(uuid "b755407f-2131-4c50-b8b8-b39ffba8ce57")
+		)
+		(pin "4"
+			(uuid "1071d089-4cd7-49f8-8824-c753c7591773")
+		)
+		(instances
+			(project "memento"
+				(path "/e5812293-2a50-4505-ab5f-ebebf7c13f5a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9409404-14b9-4d8d-a274-2a754cdca675")
+		(property "Reference" "#PWR06"
+			(at 71.12 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4971ba73-ee76-4d89-a984-c204609d961a")
+		)
+		(instances
+			(project "memento"
+				(path "/e5812293-2a50-4505-ab5f-ebebf7c13f5a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "memento:WS2812B")
-		(at 113.03 127 0)
+		(at 173.99 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2027,7 +2522,7 @@
 		(dnp no)
 		(uuid "db04c74b-02f4-4567-8ebc-4e0d147e562b")
 		(property "Reference" "D3"
-			(at 113.03 114.3 0)
+			(at 173.99 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2037,7 +2532,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 113.03 139.7 0)
+			(at 173.99 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2047,7 +2542,7 @@
 			)
 		)
 		(property "Footprint" "memento:WS2812B_PLCC4_5.0x5.0mm"
-			(at 113.03 127 0)
+			(at 173.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,7 +2553,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 113.03 127 0)
+			(at 173.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2069,7 +2564,7 @@
 			)
 		)
 		(property "Description" "WS2812B addressable RGB LED with integrated controller, 5050 PLCC-4"
-			(at 113.03 127 0)
+			(at 173.99 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
