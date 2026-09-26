@@ -63,3 +63,6 @@ __pycache__/
 .pioenvs/
 .piolibdeps/
 sw/**/build/
+
+# Office lock files
+~$*
